@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Notifications page</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="styles.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.google.com/specimen/Plus+Jakarta+Sans">
+
+</head>
+<body>
+
+<div class="container">
+      <div class="header">
+        <h3>Notifications &nbsp;<span class="boxx" id="numMsg">3</span></h3>
+        <p class="markRead">Mark all as read</p>
+      </div>
+
+  <div class="wrapper">
+  
+    <div class="card unread">
+      <img src="img/avatar-mark-webber.webp" alt="Profile-Image">
+      <div class="details">
+        <p><span class="person">Mark Webber</span> reacted to your recent post <span class="bold">first tournament today!</span> <i class="fa-solid fa-circle icon"></i></p>
+        <p class="grey">1m ago</p> 
+      </div>
+    </div>
+
+    <div class="card unread">
+      <img src="img/avatar-angela-gray.webp" alt="Profile-Image">
+      <div class="details">
+        <p><span class="person">Angela Gray</span> followed you <i class="fa-solid fa-circle icon"></i>
+        <p class="grey">5m ago</p> 
+      </div>
+    </div>
+
+    <div class="card unread">
+      <img src="img/avatar-jacob-thompson.webp" alt="Profile-Image">
+      <div class="details">
+        <p><span class="person">Jacob Thompson</span> has joined your group <span class="blue">Chess Club</span> <i class="fa-solid fa-circle icon"></i></p>
+        <p class="grey">1 day ago</p> 
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="img/avatar-rizky-hasanuddin.webp" alt="Profile-Image">
+      <div class="details">
+        <p><span class="person">Rizky Hasanuddin</span> sent you a private message
+        <p class="grey">5 days ago</p>
+        <p class="box">
+          Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and 
+          I'm already having lots of fun and improving my game.
+        </p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="img/avatar-kimberly-smith.webp" alt="Profile-Image">
+      <div class="details flex">
+        <div> 
+            <p><span class="person">Kimberly Smith</span> commented on your picture </p>
+            <p class="grey">1 week ago</p> 
+        </div> 
+        <img class="chess" src="img/image-chess.webp" alt="Profile-Image">
+        
+        
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="img/avatar-nathan-peterson.webp" alt="Profile-Image">
+      <div class="details">
+        <p><span class="person">Nathan Peterson</span> reacted to your recent post <span class="bold">5 end-game strategies to increase your win rate</span> </p>
+        <p class="grey">2 weeks ago</p> 
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="img/avatar-anna-kim.webp" alt="Profile-Image">
+      <div class="details">
+        <p><span class="person">Anna Kim</span> left the group <span class="blue">Chess Club</span></p>
+        <p class="grey">1m ago</p> 
+      </div>
+    </div>
+
+  </div>
+
+</div>
+ 
+<script src="javascript/app.js"></script>
+
+</body>
+</html>

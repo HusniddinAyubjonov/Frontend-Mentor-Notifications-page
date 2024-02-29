@@ -1,0 +1,107 @@
+body{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: hsl(210, 60%, 98%);
+}
+img{
+    width: 40px;
+    height: 40px;
+}
+.container{
+   background-color:  hsl(0, 0%, 100%);
+   padding: 20px;
+   border-radius: 8px;
+   width: 250px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header p{
+    cursor: pointer;
+}
+p{
+    margin: 0;
+    line-height: 1.5;
+    color: grey;
+}
+.wrapper{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.card{
+    display: flex;
+    gap: 20px;
+    padding: 15px;
+    cursor: pointer;
+    
+}
+
+.unread{
+    background-color: hsl(205, 33%, 90%);
+}
+.read{
+    background-color:  hsl(0, 0%, 100%);
+}
+.box{
+    border: 1px solid grey;
+    padding: 10px;
+    margin-top: 10px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 650px;
+}
+.grey{
+    font-size: 12px;
+}
+.person{
+    color: black;
+    font-weight: 800;
+}
+.bold{
+    font-weight: 800;
+}
+.blue{
+    color: hsl(219, 85%, 26%);
+    font-weight: 800;
+}
+h3{
+    color: black;
+    font-weight: 800;
+}
+
+.boxx{
+    padding: 2px 7px;
+    border-radius: 3px;
+    background-color: hsl(219, 85%, 26%);
+    color: white;
+}
+
+i{
+    font-size: 8px;
+    color: hsl(1, 90%, 64%);
+}
+.null{
+    color: hsl(0, 0%, 100%);
+}
+
+@media (min-width: 500px){
+    .container{
+        width: 550px;
+    }
+}
